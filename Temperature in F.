@@ -1,0 +1,2 @@
+temp = int(input("enter the temperature value in fahrenhite"))
+print("temperature in celcius",((temp-23)*5)/9)
