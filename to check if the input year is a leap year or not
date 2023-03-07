@@ -1,0 +1,14 @@
+a = int(input("Enter an Year to cheack it's leep or not"))
+year = a%4
+if year == 0:
+  year = a%100
+  if year == 0:
+    year = a%400
+    if year == 0:
+      print("It's a leap year")
+    else:
+      print("It's not a leep year")
+  else:
+    print("It's a leep year")
+else:
+  print("It's not leep year")
