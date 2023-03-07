@@ -1,0 +1,3 @@
+str = input("Enter any string to sort")
+print(str.split())
+print(sorted(str))
