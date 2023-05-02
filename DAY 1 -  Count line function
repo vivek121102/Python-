@@ -5,3 +5,5 @@ def countLines(f):
     a=open(f)
     print(len(a.readlines()))
     
+countLines(f)
+    
