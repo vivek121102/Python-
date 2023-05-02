@@ -1,0 +1,5 @@
+f="E:\\DAY 12\\code\\read.txt"
+def countChars(f):
+    "this function is counting the characters in a file"
+    a=open(f)
+    print(len(a.read()))
