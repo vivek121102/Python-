@@ -1,0 +1,6 @@
+f="E:\\DAY 12\\code\\read.txt"
+def test(f):
+    "this function is counting lines and counting characters"
+    countLines(f)
+    countChars(f)
+    test(f)
