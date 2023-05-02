@@ -1,0 +1,7 @@
+f="E:\\DAY 12\\code\\read.txt"
+
+def countLines(f):
+    "this function is counting the lines in a file"
+    a=open(f)
+    print(len(a.readlines()))
+    
